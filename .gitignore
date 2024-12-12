@@ -1,0 +1,7 @@
+drone/build/
+drone/install/
+drone/log/
+
+pc/build/
+pc/install/
+pc/log/
