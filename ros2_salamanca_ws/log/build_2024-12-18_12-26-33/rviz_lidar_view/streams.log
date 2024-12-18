@@ -1,0 +1,24 @@
+[0.419s] Invoking command in '/home/hf2137/ros2_salamanca_ws/build/rviz_lidar_view': PYTHONPATH=/home/hf2137/ros2_salamanca_ws/build/rviz_lidar_view/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hf2137/ros2_salamanca_ws/install/rviz_lidar_view/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hf2137/ros2_salamanca_ws/build/rviz_lidar_view/build --no-deps symlink_data
+[0.597s] running develop
+[0.705s] running egg_info
+[0.705s] creating rviz_lidar_view.egg-info
+[0.706s] writing rviz_lidar_view.egg-info/PKG-INFO
+[0.706s] writing dependency_links to rviz_lidar_view.egg-info/dependency_links.txt
+[0.706s] writing entry points to rviz_lidar_view.egg-info/entry_points.txt
+[0.706s] writing requirements to rviz_lidar_view.egg-info/requires.txt
+[0.706s] writing top-level names to rviz_lidar_view.egg-info/top_level.txt
+[0.706s] writing manifest file 'rviz_lidar_view.egg-info/SOURCES.txt'
+[0.707s] reading manifest file 'rviz_lidar_view.egg-info/SOURCES.txt'
+[0.708s] writing manifest file 'rviz_lidar_view.egg-info/SOURCES.txt'
+[0.708s] running build_ext
+[0.709s] Creating /home/hf2137/ros2_salamanca_ws/install/rviz_lidar_view/lib/python3.10/site-packages/rviz-lidar-view.egg-link (link to .)
+[0.709s] Installing rviz_lidar_view script to /home/hf2137/ros2_salamanca_ws/install/rviz_lidar_view/lib/rviz_lidar_view
+[0.709s] 
+[0.709s] Installed /home/hf2137/ros2_salamanca_ws/build/rviz_lidar_view
+[0.709s] running symlink_data
+[0.709s] creating /home/hf2137/ros2_salamanca_ws/install/rviz_lidar_view/share/ament_index
+[0.710s] creating /home/hf2137/ros2_salamanca_ws/install/rviz_lidar_view/share/ament_index/resource_index
+[0.710s] creating /home/hf2137/ros2_salamanca_ws/install/rviz_lidar_view/share/ament_index/resource_index/packages
+[0.710s] symbolically linking /home/hf2137/ros2_salamanca_ws/build/rviz_lidar_view/resource/rviz_lidar_view -> /home/hf2137/ros2_salamanca_ws/install/rviz_lidar_view/share/ament_index/resource_index/packages
+[0.710s] symbolically linking /home/hf2137/ros2_salamanca_ws/build/rviz_lidar_view/package.xml -> /home/hf2137/ros2_salamanca_ws/install/rviz_lidar_view/share/rviz_lidar_view
+[0.732s] Invoked command in '/home/hf2137/ros2_salamanca_ws/build/rviz_lidar_view' returned '0': PYTHONPATH=/home/hf2137/ros2_salamanca_ws/build/rviz_lidar_view/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hf2137/ros2_salamanca_ws/install/rviz_lidar_view/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hf2137/ros2_salamanca_ws/build/rviz_lidar_view/build --no-deps symlink_data

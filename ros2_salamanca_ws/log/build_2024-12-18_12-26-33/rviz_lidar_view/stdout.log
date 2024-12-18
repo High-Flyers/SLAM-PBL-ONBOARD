@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating rviz_lidar_view.egg-info
+writing rviz_lidar_view.egg-info/PKG-INFO
+writing dependency_links to rviz_lidar_view.egg-info/dependency_links.txt
+writing entry points to rviz_lidar_view.egg-info/entry_points.txt
+writing requirements to rviz_lidar_view.egg-info/requires.txt
+writing top-level names to rviz_lidar_view.egg-info/top_level.txt
+writing manifest file 'rviz_lidar_view.egg-info/SOURCES.txt'
+reading manifest file 'rviz_lidar_view.egg-info/SOURCES.txt'
+writing manifest file 'rviz_lidar_view.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hf2137/ros2_salamanca_ws/install/rviz_lidar_view/lib/python3.10/site-packages/rviz-lidar-view.egg-link (link to .)
+Installing rviz_lidar_view script to /home/hf2137/ros2_salamanca_ws/install/rviz_lidar_view/lib/rviz_lidar_view
+
+Installed /home/hf2137/ros2_salamanca_ws/build/rviz_lidar_view
+running symlink_data
+creating /home/hf2137/ros2_salamanca_ws/install/rviz_lidar_view/share/ament_index
+creating /home/hf2137/ros2_salamanca_ws/install/rviz_lidar_view/share/ament_index/resource_index
+creating /home/hf2137/ros2_salamanca_ws/install/rviz_lidar_view/share/ament_index/resource_index/packages
+symbolically linking /home/hf2137/ros2_salamanca_ws/build/rviz_lidar_view/resource/rviz_lidar_view -> /home/hf2137/ros2_salamanca_ws/install/rviz_lidar_view/share/ament_index/resource_index/packages
+symbolically linking /home/hf2137/ros2_salamanca_ws/build/rviz_lidar_view/package.xml -> /home/hf2137/ros2_salamanca_ws/install/rviz_lidar_view/share/rviz_lidar_view

@@ -1,0 +1,3 @@
+[console_scripts]
+rviz_lidar_view = rviz_lidar_view.rviz_lidar_view:main
+
