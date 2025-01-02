@@ -14,8 +14,8 @@
     <xacro:property name="castor_mass" value="0.08" />
 
     <!--Realsense size -->
-    <xacro:property name="realsense_length" value="0.09" />
-    <xacro:property name="realsense_width" value="0.025" />
+    <xacro:property name="realsense_length" value="0.025" />
+    <xacro:property name="realsense_width" value="0.09" />
     <xacro:property name="realsense_height" value="0.025" />
     <xacro:property name="realsense_mass" value="0.072" />
 
@@ -25,8 +25,7 @@
     <xacro:property name="jetson_height" value="0.029" />
     <xacro:property name="jetson_mass" value="0.28" />
 
-    <!--Odrive size
-    (TODO: set teh correct dimensions)-->
+    <!--Odrive size -->
     <xacro:property name="odrive_radius" value="0.0855" />
     <xacro:property name="odrive_height" value="0.045" />
     <xacro:property name="odrive_mass" value="2.2" />
@@ -75,6 +74,35 @@
 
     <gazebo reference="platform">
         <material>Gazebo/Black</material>
+    </gazebo>
+
+    <!-- Battery link -->
+
+    <joint name="battery_joint" type="fixed">
+        <parent link="platform" />
+        <child link="battery" />
+        <origin xyz="-0.08 0 ${battery_height/2}" rpy="0 0 0" />
+    </joint>
+
+    <link name="battery">
+        <visual>
+            <geometry>
+                <box size="${battery_length} ${battery_width} ${battery_height}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </visual>
+        <collision>
+            <geometry>
+                <box size="${battery_length} ${battery_width} ${battery_height}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </collision>
+        <xacro:box_inertia m="${battery_mass}" l="${battery_length}" w="${battery_width}" h="${battery_height}"
+            xyz="0 0 0" rpy="0 0 0" />
+    </link>
+
+    <gazebo reference="battery">
+        <material>Gazebo/Grey</material>
     </gazebo>
 
 

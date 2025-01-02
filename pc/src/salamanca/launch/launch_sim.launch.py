@@ -12,7 +12,8 @@ from launch_ros.actions import Node
 
 
 def generate_launch_description():
-    package_name='salamanca' 
+
+    package_name='salamanca'
 
     rsp = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
@@ -29,7 +30,6 @@ def generate_launch_description():
                         arguments=['-topic', 'robot_description',
                                    '-entity', 'salamanca'],
                         output='screen')
-
 
     return LaunchDescription([
         rsp,
